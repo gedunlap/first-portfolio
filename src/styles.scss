@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.app {
+    background-color: white;
+}
+
+.main {
+    padding-top: 50px;
+}
+
+.nav {
+    background-color: black;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Roboto Mono', monospace;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    z-index: 2;
+
+    .navitem {
+        color: white;
+        text-decoration: none;
+        font-size: 25px;
+        font-weight: 600;
+    }
+
+    .navitem :hover {
+        color: hotpink;
+    }
+}
+
+.home {
+    font-family: 'Montserrat', sans-serif;
+
+    .homeimg {
+        border-radius: 250px;
+        border: solid black 10px;
+        margin-top: 100px;
+    }
+
+    .homeinfo {
+        margin-top: 250px;
+
+        h2 {
+            color: teal;
+        }
+    
+        h4 {
+            color: black;
+            font-size: 25px;
+        }
+    }
+}
+
+.skills {
+    margin-top: 200px;
+    color: teal;
+    font-weight: 900;
+}
+
+.iconrow {
+    margin-bottom: 20px;
+}
+
+.projects {
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+    
+    .proj {
+        margin: 50px auto;
+
+        img {
+            border: solid black 6px;
+            border-radius: 20px;
+        }
+
+        .projinfo {
+
+            h1 {
+                color: teal;
+                font-weight: 900;
+            }
+
+            p {
+                font-size: 20px;
+            }
+
+            a {
+                color: hotpink;
+                font-size: 20px;
+                text-decoration: none;
+                font-weight: 900;
+            }
+
+            a:hover {
+                color: lightskyblue;
+            }
+        }
+    }
+}
+
+.about {
+    font-family: 'Montserrat', sans-serif;
+
+    .aboutimg {
+        margin: 100px auto;
+        border: solid black 6px;
+        border-radius: 25px;
+    }
+
+    .aboutinfo {
+        margin-top: 100px;
+
+        h2 {
+            color: teal;
+        }
+    
+        h4 {
+            color: black;
+            font-size: 25px;
+        }
+    }
+}
