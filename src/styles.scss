@@ -23,6 +23,10 @@ body {
     width: 100vw;
     z-index: 2;
 
+    .navimg {
+        width: 60px;
+    }
+
     .navitem {
         color: white;
         text-decoration: none;
@@ -116,6 +120,7 @@ body {
 
     .aboutinfo {
         margin-top: 100px;
+        padding: 30px;
 
         h2 {
             color: teal;

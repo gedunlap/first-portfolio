@@ -9,8 +9,8 @@ function Header(props){
         <Link to="/about" className="navitem">
           <div>About Me</div>
         </Link>
-        <Link to="/" className="navitem">
-          <div>&lt;GD&gt;</div>
+        <Link to="/">
+          <img className="navimg" src="https://i.imgur.com/KKKqqVW.png" alt="" />
         </Link>
         <Link to="/contact" className="navitem">
           <div>Contact</div>
