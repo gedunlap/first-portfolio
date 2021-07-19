@@ -14,7 +14,7 @@ function About(props){
         <div className="six columns aboutinfo">
           <h4>I am passionate about bringing accessibility to my projects through design, for new and experienced users alike.</h4>
           <br />
-          <h4>A history of handling changes on the fly when finding unfortold obstacles in my work has helped me develop calm and organization under pressure.</h4>
+          <h4>A history of handling changes on the fly when finding unexpected obstacles in my work has helped me develop a calm problem solving mindset.</h4>
           <br />
           <h4>Thanks for checking out my page!</h4>
         </div>
