@@ -3,6 +3,19 @@ body {
     padding: 0;
 }
 
+body::-webkit-scrollbar {
+    width: 5px;
+}
+
+body::-webkit-scrollbar-track {
+    background: black;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: teal;
+    border-radius: 2.5px;
+}
+
 .app {
     background-color: white;
 }
