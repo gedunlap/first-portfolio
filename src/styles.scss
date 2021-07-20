@@ -75,36 +75,6 @@ body::-webkit-scrollbar-thumb {
     }
 }
 
-.nav {
-    background-color: black;
-    height: 50px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    font-family: 'Roboto Mono', monospace;
-    position: fixed;
-    top: 0;
-    width: 100vw;
-    z-index: 2;
-    display: none;
-
-    .navimg {
-        width: 60px;
-        border-radius: 3px;
-    }
-
-    .navitem {
-        color: white;
-        text-decoration: none;
-        font-size: 25px;
-        font-weight: 600;
-    }
-
-    .navitem :hover {
-        color: hotpink;
-    }
-}
-
 .home {
     font-family: 'Montserrat', sans-serif;
 
@@ -115,7 +85,6 @@ body::-webkit-scrollbar-thumb {
     }
 
     .homeinfo {
-        margin-top: 250px;
 
         h2 {
             color: teal;
@@ -129,7 +98,6 @@ body::-webkit-scrollbar-thumb {
 }
 
 .skills {
-    margin-top: 200px;
     color: teal;
     font-weight: 900;
 }
@@ -179,13 +147,11 @@ body::-webkit-scrollbar-thumb {
     font-family: 'Montserrat', sans-serif;
 
     .aboutimg {
-        margin: 100px auto;
         border: solid black 6px;
         border-radius: 25px;
     }
 
     .aboutinfo {
-        margin-top: 100px;
         padding: 30px;
 
         h2 {
@@ -202,6 +168,7 @@ body::-webkit-scrollbar-thumb {
 @media only screen and (max-width: 600px) {
     .main {
         margin-left: 0;
+        padding-top: 10px;
     }
 
     .navbar{
@@ -209,6 +176,49 @@ body::-webkit-scrollbar-thumb {
         bottom: 0;
         width: 100vw;
         height: 5rem;
+    }
+
+    .homeinfo {
+        margin-top: 30px;
+    }
+
+    .skills {
+        margin-top: 80px;
+    }
+
+    .about {
+    
+        .aboutimg {
+            margin: 20px auto 100px auto;
+            border: solid black 6px;
+            border-radius: 25px;
+        }
+    
+        .aboutinfo {
+            margin-top: 0px;
+            padding: 30px;
+        }
+    }
+
+    .projects {
+        
+        .proj {
+            margin: 20px auto;
+    
+            .projinfo {
+                margin-bottom: 20px;
+            }
+        }
+
+        .projbreak {
+            background-color: black;
+            height: 3px;
+            width: 100vw;
+        }
+
+        #lastproj {
+            margin-bottom: 100px;
+        }
     }
 }
 
@@ -226,6 +236,26 @@ body::-webkit-scrollbar-thumb {
         
         .navimg {
             width: 10rem;
+        }
+    }
+
+    .homeinfo {
+        margin-top: 250px;
+    }
+
+    .skills {
+        margin-top: 200px;
+    }
+
+    .about {
+
+        .aboutimg {
+            margin: 100px auto;
+        }
+    
+        .aboutinfo {
+            margin-top: 100px;
+            padding: 30px;
         }
     }
 }

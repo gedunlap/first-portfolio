@@ -9,6 +9,7 @@ function Projects(props){
             <a href="https://play.unity.com/mg/other/my-first-unity-game-5183"><button>Play It!</button></a>
           </div>
         </div>
+        <div className="projbreak"></div>
         <div className="row proj">
         <div className="six columns projinfo">
             <h1>XAegis</h1>
@@ -17,9 +18,10 @@ function Projects(props){
           </div>
           <img className="six columns" src="https://media.giphy.com/media/FDAkDuuE46UFhrEDBv/giphy.gif" alt="" />
         </div>
+        <div className="projbreak"></div>
         <div className="row proj">
           <img className="six columns" src="https://media.giphy.com/media/xZqGNc0I7B1GmpGH4w/giphy.gif" alt="" />
-          <div className="six columns projinfo">
+          <div className="six columns projinfo" id="lastproj">
             <h1>On The Run</h1>
             <p>A social running app built with team colaboration using React, Mongoose and MongoDB.</p>
             <a href="https://competent-jepsen-7ab1b3.netlify.app/"><button>See It!</button></a>
