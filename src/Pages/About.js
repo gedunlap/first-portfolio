@@ -7,7 +7,7 @@ function About(props){
               <h2>About Me</h2>
               <h4>I am a husband and dog dad with a background in project management, account management and custom sheet metal fabrication.</h4>
               <br />
-              <h4>My past experience has helped me developed a keen eye for detail and design, and a strong sense of teamwork.</h4>
+              <h4>My past experience has helped me develop a keen eye for detail and design, and a strong sense of teamwork.</h4>
           </div>
       </div>
       <div className="row aboutstuff">
