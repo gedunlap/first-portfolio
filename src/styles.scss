@@ -165,6 +165,38 @@ body::-webkit-scrollbar-thumb {
     }
 }
 
+.contact {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+
+    .contacticon {
+        font-size: 60px;
+        color: hotpink;
+    }
+
+    .contactitem {
+        font-size: 30px;
+        margin-bottom: 30px;
+
+        .link a {
+            color: teal;
+            text-decoration: none;
+            font-weight: 900;
+            font-style: bold;
+        }
+    
+        .link a:hover {
+            color: hotpink;
+            text-decoration: underline;
+        }
+    }
+
+    p {
+        font-size: 20px;
+        margin-bottom: 80px;
+    }
+}
+
 @media only screen and (max-width: 600px) {
     .main {
         margin-left: 0;
