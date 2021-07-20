@@ -6,12 +6,15 @@ import './normalize.css';
 import { BrowserRouter as Router } from "react-router-dom"
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import ScrollToTop from './Components/ScrollToTop'
 
 ReactDOM.render(
   <Router>
-    <React.StrictMode>
-      <App />
-    </React.StrictMode>
+    <ScrollToTop>
+      <React.StrictMode>
+        <App />
+      </React.StrictMode>
+    </ScrollToTop>
   </Router>,
   document.getElementById('root')
 );
