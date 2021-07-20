@@ -5,7 +5,7 @@ function Projects(props){
           <img className="six columns" src="https://media.giphy.com/media/SlRlKMdri8MR0KRPbp/giphy.gif" alt="" />
           <div className="six columns projinfo">
             <h1>Adolescent Mutated Karate Frog</h1>
-            <p>A platformer built in Unity using C# and open source art / music.</p>
+            <p>My first game! A platformer built in Unity using C# and Unity's free art / music.</p>
             <a href="https://play.unity.com/mg/other/my-first-unity-game-5183"><button>Play It!</button></a>
           </div>
         </div>
@@ -13,7 +13,7 @@ function Projects(props){
         <div className="row proj">
         <div className="six columns projinfo">
             <h1>XAegis</h1>
-            <p>A post board built with React and RoR.</p>
+            <p>A post board built with React and Ruby on Rails.</p>
             <a href="https://xaegis.vercel.app/"><button>See It!</button></a>
           </div>
           <img className="six columns" src="https://media.giphy.com/media/FDAkDuuE46UFhrEDBv/giphy.gif" alt="" />
