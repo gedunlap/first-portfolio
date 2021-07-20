@@ -22,6 +22,30 @@ body::-webkit-scrollbar-thumb {
 
 .main {
     padding-top: 50px;
+    margin-left: 10rem;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 10rem;
+    height: 100vh;
+    position: fixed;
+    background-color: black;
+
+    .navimg {
+        width: 60px;
+        border-radius: 3px;
+    }
+
+    .navitem {
+        color: white;
+        text-decoration: none;
+        font-size: 40px;
+        font-weight: 600;
+    }
 }
 
 .nav {
@@ -35,6 +59,7 @@ body::-webkit-scrollbar-thumb {
     top: 0;
     width: 100vw;
     z-index: 2;
+    display: none;
 
     .navimg {
         width: 60px;
