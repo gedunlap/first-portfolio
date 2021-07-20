@@ -1,4 +1,5 @@
 import { FaMailBulk, FaLinkedin, FaInstagramSquare, FaGithub } from "react-icons/fa";
+import { IoDocumentText } from 'react-icons/io5'
 
 function About(props){
     return (
@@ -7,6 +8,10 @@ function About(props){
             <div className="twelve columns contactitem">
                 <FaMailBulk className="contacticon" />
                 <div className="link"><a href="mailto: gedunlap1@outlook.com">Email Me *</a></div>
+            </div>
+            <div className="twelve columns contactitem">
+                <IoDocumentText className="contacticon" />
+                <div className="link"><a href="https://docs.google.com/document/d/e/2PACX-1vSvN7w0hBkUObfkW_1T0PVGUSf4us0dtTmr6SVkhD2U33nRtjWxvtX2kPxhmxD2aEe8lOP32142v4b6/pub">My Resume</a></div>
             </div>
             <div className="twelve columns contactitem">
                 <FaLinkedin className="contacticon" />
