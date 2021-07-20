@@ -30,21 +30,48 @@ body::-webkit-scrollbar-thumb {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    width: 10rem;
-    height: 100vh;
     position: fixed;
     background-color: black;
+    z-index: 2;
+    transition: width 300ms ease;
 
     .navimg {
-        width: 60px;
+        width: 5rem;
         border-radius: 3px;
+        min-width: 2rem;
     }
 
     .navitem {
         color: white;
-        text-decoration: none;
-        font-size: 40px;
-        font-weight: 600;
+        font-size: 4rem;
+        min-width: 2rem;
+    }
+
+    .linkitem {
+        display: flex;
+        align-items: center;
+    }
+
+    .navtext {
+        display: none;
+        margin-left: 1rem;
+        text-decoration: none !important;
+        color: white;
+        font-size: 20px;
+        font-family: 'Roboto Mono', monospace;
+    }
+}
+
+.navbar:hover {
+
+    .linkitem:hover {
+        .navitem {
+            color: hotpink;
+        }
+
+        .navtext {
+            color: hotpink;
+        }
     }
 }
 
@@ -168,6 +195,37 @@ body::-webkit-scrollbar-thumb {
         h4 {
             color: black;
             font-size: 25px;
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .main {
+        margin-left: 0;
+    }
+
+    .navbar{
+        flex-direction: row;
+        bottom: 0;
+        width: 100vw;
+        height: 5rem;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .navbar {
+        width: 10rem;
+        height: 100vh;
+    }
+    .navbar:hover {
+        width: 25rem;
+
+        .navtext {
+            display: inline;
+        }
+        
+        .navimg {
+            width: 10rem;
         }
     }
 }
