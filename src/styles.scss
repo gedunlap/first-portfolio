@@ -95,12 +95,28 @@ body::-webkit-scrollbar-thumb {
             font-size: 25px;
         }
     }
+
+    .skills {
+        color: teal;
+        font-weight: 900;
+    }
+
+    .iconrow {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .skillicon {
+        font-size: 100px;
+
+        p {
+            font-size: 18px;
+            font-weight: 900;
+        }
+    }
 }
 
-.skills {
-    color: teal;
-    font-weight: 900;
-}
+
 
 .iconrow {
     margin-bottom: 20px;
@@ -187,7 +203,6 @@ body::-webkit-scrollbar-thumb {
     
         .link a:hover {
             color: hotpink;
-            text-decoration: underline;
         }
     }
 
