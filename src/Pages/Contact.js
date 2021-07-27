@@ -11,7 +11,7 @@ function About(props){
             </div>
             <div className="twelve columns contactitem">
                 <IoDocumentText className="contacticon" />
-                <div className="link"><a href="https://docs.google.com/document/d/e/2PACX-1vSvN7w0hBkUObfkW_1T0PVGUSf4us0dtTmr6SVkhD2U33nRtjWxvtX2kPxhmxD2aEe8lOP32142v4b6/pub">My Resume</a></div>
+                <div className="link"><a href="https://docs.google.com/document/d/1fe9mPuJx7V7DjP9dCemlr8dgOWcFR7sdzXLqVkxWSwI/edit?usp=sharing">My Resume</a></div>
             </div>
             <div className="twelve columns contactitem">
                 <FaLinkedin className="contacticon" />
